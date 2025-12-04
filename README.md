@@ -389,7 +389,7 @@ Para um acesso mais flexível e seguro, especialmente para gerenciamento remoto,
     Você pode obter o IP do contêiner usando `lxc-ls -f` ou `lxc-info`:
 
     ```bash
-sudo lxc-info -n <nome_do_contêiner> | grep IP
+    sudo lxc-info -n <nome_do_contêiner> | grep IP
     ```
 
 3.  **Acesse o contêiner via SSH do host:**
